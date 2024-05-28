@@ -1,0 +1,80 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/1401219939/vector/maple-tree-at-four-seasons-spring-summer-autumn-winter-landscape-with-conceptual-change-of.jpg?s=612x612&w=0&k=20&c=TvYaZUE5yPwKf06NGQUa4eq76erg0WEch8JWDX0Jwss=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.converter-container {
+   
+    padding: 30px;
+    border-radius: 230px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.converter {
+    width: 100%;
+}
+
+.converter h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #000;
+}
+
+.converter input, .converter select, .converter button {
+    margin: 30px 0;
+    padding: 10px;
+    width: calc(100% - 24px);
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size:x-large;
+}
+
+.converter button {
+    background-color: #F97613;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.converter button:hover {
+    background-color:#000;
+}
+
+.result-container {
+    margin-top: 10px;
+    background-color:#8080FF;
+    padding: 20px 20px;
+    border-radius: 5px;
+    width: 100%;
+    border-radius: 180px;
+    text-align: center;
+    display: none;
+}
+
+.result-container h2 {
+    font-size: 2.5m;
+    color: #000;;
+}
+
+.result-container p {
+    font-size: 1.2em;
+    font-style: oblique;
+    margin: 0px 0;
+    line-height: 1.4;
+}
